@@ -5,4 +5,4 @@ test:
 	poetry run pytest .
 
 docker:
-	docker compose build test && docker compose run --rm test
+	docker compose run --rm test
